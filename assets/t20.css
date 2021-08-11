@@ -1,0 +1,230 @@
+ .battingcard tr {
+	text-align: left;
+}
+.bowlingcard tr{
+	text-align: left;
+	width: 50%
+}
+table.battingcard  {
+	font-family:  sans-serif;
+  border-collapse:collapse; 
+  width: 100%;
+  }
+table.bowlingcard {
+	font-family: sans-serif;
+  border-collapse:collapse;
+  width: 100%;
+}
+
+ td th {
+	border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.battingcard tr:nth-child(even){background-color: #f5f6fa;}
+
+.battingcard th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #273c75;
+  color: white;
+}
+
+.bowlingcard tr:nth-child(even){background-color: #f5f6fa;}
+
+.battingcard tr:hover {background-color: #dcdde1;}
+.bowlingcard tr:hover {background-color: #dcdde1;}
+
+.bowlingcard th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #273c75;
+  color: white;
+}
+
+
+.bowlingcard td, .bowlingcard th {
+  border: 1px solid #dcdde1;
+  padding: 8px;
+}
+
+.battingcard td, .battingcard th {
+  border: 1px solid #dcdde1;
+  padding: 8px;
+}
+
+.header th {
+	color: black;
+	background-color: #dcdde1;
+	border-left: none;
+	border-right: none;
+}
+
+table.infocard, .infocard td, .infocard th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table.infocard {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.infocard th, .infocard td {
+  padding: 15px;
+}
+
+.infocard th {
+	text-align: center;
+}
+
+
+a {
+  color: #192a56;
+}
+
+.bowling_innings_list {
+  max-width: 25%;
+  float: right;
+
+}
+.batting_innings_list {
+  max-width: 25%;
+  float: left;
+}
+
+.stats {
+  min-width: 100%;
+}
+
+
+.hide {
+  display: none;
+}
+
+.bowling_link {
+  float: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.batting_link {
+  float: left;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.stats th{
+  background-color: #dcdde1;
+}
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+.stats tr:nth-child(odd){background-color: #f5f6fa;}
+
+
+.filter_table tr:nth-child(even){background-color: #f5f6fa;}
+
+.filter_table {
+  border-style: solid;
+  display: block;
+  border-width: thin;
+
+}
+.filter_table td {
+  display: inline-block;
+}
+.button {
+  background-color: #192a56; 
+ 
+  color: white;
+  
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+form {
+  clear: both;
+}
+
+.top {
+  background-color: #192a56;
+  padding-bottom: 5;
+  box-shadow: 2px 5px #888888;
+}
+
+.top a {
+  background-color: #192a56;
+  color: #f5f6fa;
+
+}
+
+
+.search {
+  float: right;
+ 
+}
+
+.top form {
+  margin: 0;
+}
+
+.players_random{
+display: inline-block;
+float: right;
+}
+
+
+.scorecard_random{
+display: inline-block;
+float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+
+  body {
+    margin: 0px;
+  }
+
+  .bowling_link {
+    float:left;
+  }
+  .bowling_innings_list {
+  
+  float: left;
+
+}
+  table.infocard {
+    width: 100%;
+    
+  }
+
+.players_random{
+display: block;
+float: left;
+}
+
+
+.scorecard_random{
+display: block;
+float: left;
+}
+
+
+
+
+
+}
+
+
